@@ -13,6 +13,7 @@
         <module>resttemplate</module>
         <module>eurekaclient</module>
         <module>eurekaclient</module>
+        <module>zuulserver</module>
     </modules>
 
     <parent>

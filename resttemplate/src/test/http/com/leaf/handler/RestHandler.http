@@ -1,0 +1,30 @@
+GET http://localhost:8080/rest/findAll
+
+###
+GET http://localhost:8080/rest/findById/1
+
+###
+POST http://localhost:8080/rest/save
+Content-Type:  application/json
+
+{
+  "id": 4,
+  "name": "张三"
+}
+
+###
+PUT http://localhost:8080/rest/update
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name": "hhh"
+}
+
+###
+DELETE http://localhost:8080/rest/deleteById/4
+
+###
+
+
+

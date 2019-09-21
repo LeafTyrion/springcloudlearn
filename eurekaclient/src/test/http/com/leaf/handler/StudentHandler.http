@@ -1,0 +1,30 @@
+GET http://localhost:8010/student/findAll
+
+###
+GET http://localhost:8010/student/findById/1
+
+###
+POST http://localhost:8010/student/save
+Content-Type:  application/json
+
+{
+  "id": 4,
+  "name": "张三"
+}
+
+###
+PUT http://localhost:8010/student/update
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name": "hhh"
+}
+
+###
+DELETE http://localhost:8010/student/deleteById/4
+
+###
+
+
+

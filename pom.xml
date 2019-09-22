@@ -13,6 +13,10 @@
         <module>resttemplate</module>
         <module>eurekaclient</module>
         <module>zuulserver</module>
+        <module>native-config-server</module>
+        <module>nativeconfigclient</module>
+        <module>configserver</module>
+        <module>configclient</module>
     </modules>
 
     <parent>

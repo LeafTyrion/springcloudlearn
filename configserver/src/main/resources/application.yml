@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LeafTyrion/springcloudlearn.git
+          search-paths: configfiles
+          username: leaf1013@outlook.com
+          password: yeyaqiao19971013
+          default-label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

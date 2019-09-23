@@ -12,8 +12,15 @@ public class HelloController {
     @Value("${server.port}")
     private String port;
 
+    @Value("${hello}")
+    private String hello;
+
     @GetMapping("/index")
     public String index() {
         return this.port;
+    }
+    @GetMapping("/hello")
+    public String hello(){
+        return this.hello;
     }
 }

@@ -13,7 +13,7 @@
         <module>resttemplate</module>
         <module>eurekaclient</module>
         <module>zuulserver</module>
-        <module>native-config-server</module>
+        <module>nativeconfigserver</module>
         <module>nativeconfigclient</module>
         <module>configserver</module>
         <module>configclient</module>
@@ -54,6 +54,11 @@
             <groupId>javax.activation</groupId>
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.8</version>
         </dependency>
     </dependencies>
 

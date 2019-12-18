@@ -4,10 +4,4 @@ spring:
   application:
     name: configclient
 hello: aaaaaaa
-management:
-  security:
-    enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: refresh
+
